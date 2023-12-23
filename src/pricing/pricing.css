@@ -1,0 +1,29 @@
+.contact-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-card img {
+  width: 400px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px; 
+}
+
+.contact-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}

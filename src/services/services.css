@@ -1,0 +1,44 @@
+.services-page {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    margin: 10px;
+  }
+  
+  .service-card h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .service-card {
+      width: 100%;
+    }
+  }
+  
